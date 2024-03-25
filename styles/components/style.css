@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+}
+
+body {
+    height: 100%;
+   
+}
+
+body a, body p {
+    text-decoration: none;
+    font-size: 14px;
+}
+
+@media (max-width: 485px) {
+    body a {
+        font-size: 8px;
+    }
+}

@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TED Eletronicos</title>
+    <link rel="stylesheet" type="text/css" href="./styles/components/style.css">
+    <link rel="stylesheet" type="text/css" href="./styles/components/header.css">
+    <link rel="stylesheet" type="text/css" href="./styles/components/main.css">
+    <link rel="stylesheet" type="text/css" href="./styles/components/footer.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <a href="#menu" class="icon-menu">Abrir Menu</a>
+
+        <nav id="menu" class="menu">
+            <div class="nav-bar">
+                <div id="input-search">
+                    <input type="text" placeholder="Pesquisar no site">
+                </div>
+                <div class="nav-links">
+                    <a href="https://adsomos.com/">Inicio</a>
+                    <a href="https://adsomos.com/">Nossa loja</a>
+                    <a href="https://adsomos.com/">Comprar</a>
+                    <a href="https://adsomos.com/">Ajuda</a>
+                    <button class="my-cart">
+                        <span class="material-symbols-outlined">shopping_cart</span>
+                        <p>Carrinho</p>
+                    </button>
+                </div>
+            </div>
+        </nav>
+        <section class="slogan">
+            <div class="container">
+                <div class="slogan-area-div">
+                    <div id="slogan-text">
+                        <h1>A loja do seu eletrônico</h1>
+                    </div>
+                    <div id="slogan-images">
+                        <img src="./styles/images/iphone.png" alt="iphone">
+                        <img src="./styles/images/tvsamsung.png" alt="televisao">
+                        <img src="./styles/images/notbook.png" alt="notebook">
+                    </div>
+                    <div id="slogan-button">
+                        <button>
+                            <p>Compre agora</p>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="featured-products-section">
+            <div class="container">
+                <h2> Em destaque</h2>
+                <div class="featured-products-div">
+                    <div id="carouselExample" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" id="carousel-item-active">
+                                <img src="./styles/images/motorola.png" alt="smartphone">
+                                <img src="./styles/images/caixadesom.png" alt="Caixa de som">
+                            </div>
+                            <div class="carousel-item" id="carousel-item2">
+                                <img src="./styles/images/smartphne.png" alt="smartphone">
+                                <img src="./styles/images/echodot2.png" alt="notebook">
+                            </div>
+                            <div class="carousel-item" id="carousel-item3">
+                                <img src="./styles/images/aspirador.png"  alt="aspirador">
+                                <img src="./styles/images/televisao.png" alt="smart tv">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="newsletter">
+            <div class="container">
+                <div id="about-newsletter">
+                    <h3>NewsLetter</h3>
+                    <p>Quer receber nossas novidades de produtos, promoções ou até mesmo cupons? Cadastre seu
+                        email. É Grátis!</p>
+                </div>
+                <div class="subscribe-newsletter-container">
+                    <div id="subscribe-email-input">
+                        <input type="text" id="email-newsletter" placeholder="Email">
+                    </div>
+                    <div id="button-inscrip-newsletter">
+                        <button>Inscrever</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="products">
+            <div class="container" id="container-product-images">
+                <div class="products-images">
+                    <div id="first-block-image">
+                        <img src="./styles/images/caixaDeSom2.jpg" alt="caixa de som">
+                        <div id="first-block-text">
+                            <p>Caixa de Som</p>
+                            <p>R$ 785,89</p>
+                        </div>
+                    </div>
+                    <div id="middle-block-images">
+                        <img src="./styles/images/smartwatch.jpg" alt="smartwatch">
+                        <div id="middle-up-text">
+                            <p>Smartwatch</p>
+                            <p>R$ 199,00</p>
+                        </div>
+                        <img src="./styles/images/tablet.jpg" alt="tablet">
+                        <div id="middle-down-text">
+                            <p>Tablet</p>
+                            <p>R$ 1799,99</p>
+                        </div>
+                    </div>
+                    <div id="last-block-images">
+                        <img src="./styles/images/monitor.jpg" alt="monitor">
+                        <div id="last-up-text">
+                            <p>Monitor</p>
+                            <p>R$ 1059,99</p>
+                        </div>
+                        <img src="./styles/images/computador.jpg" alt="computador">
+                        <div id="last-down-text">
+                            <p>Computador</p>
+                            <p>R$ 4536,76</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about">
+            <div class="container">
+                <div class="about-text">
+                    <h3>Sobre nós</h3>
+                    <p>TED Eletronicos!® é uma marca registrada de Ted E S.A | CNPJ: 00.000.000/0001-00 |
+                        Todos os direitos reservados. Os preços anunciados neste site ou via e-mail promocional podem
+                        ser alterados sem prévio aviso.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="principal-div-footer">
+                <div class="location">
+                    <span class="material-symbols-outlined">pin_drop</span>
+                    <p>Edificio Duo Office - Rua Henrich Richard Bruno Erbe, 25 - 4° andar</p>
+                </div>
+                <div class="nav-footer">
+                    <div id="main-menu">
+                        <p>MENU</p>
+                        <a href="https://adsomos.com/">Inicio</a>
+                        <a href="https://adsomos.com/">Sobre nós</a>
+                        <a href="https://adsomos.com/">Comprar</a>
+                        <a href="https://adsomos.com/">Ajuda</a>
+                    </div>
+                    <div id="company">
+                        <p>EMPRESA</p>
+                        <a href="https://adsomos.com/">A empresa</a>
+                        <a href="https://adsomos.com/">Carreira</a>
+                        <a href="https://adsomos.com/">Imprensa</a>
+                    </div>
+                    <div id="discover">
+                        <p>EXPLORE</p>
+                        <a href="https://adsomos.com/">Nossa equipe</a>
+                        <a href="https://adsomos.com/">História</a>
+                        <a href="https://adsomos.com/">Valores</a>
+                    </div>
+                    <div id="find-us">
+                        <p>INTERNET</p>
+                        <a href="https://adsomos.com/">Facebook</a>
+                        <a href="https://adsomos.com/">Twitter</a>
+                        <a href="https://adsomos.com/">Instagram</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

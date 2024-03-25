@@ -1,0 +1,250 @@
+header {
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(82, 148, 135, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    height: 65vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* nav-bar */
+
+nav {
+    width: 100%;
+    height: 10vh;
+}
+
+.nav-bar {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-bar a {
+    color: white;
+    padding-top: 10px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 45%;
+}
+
+.nav-links a {
+    padding-top: 20px;
+}
+
+#input-search {
+    width: 20%;
+}
+
+.my-cart {
+    display: flex;
+    background-color: #3a4750;
+    border: none;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    width: 110px;
+    height: 40px;
+}
+
+.my-cart p {
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.nav-links button:hover {
+    background-color: #0c317a;
+}
+
+.my-cart p {
+    color: white;
+    text-align: center;
+    padding-top: 8px;
+    height: 30px;
+    width: 90px;
+}
+
+.my-cart span {
+    padding-top: 8px;
+    height: 30px;
+}
+
+/* Slogan area */
+
+
+.slogan {
+    height: 60vh;
+}
+
+.slogan .container {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+}
+
+.slogan-area-div {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#slogan-text,
+#slogan-images {
+    width: 90%;
+}
+
+#slogan-button {
+    width: 10%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+#slogan-button button {
+    padding-top: -5px;
+}
+
+#slogan-text {
+    text-align: center;
+}
+
+#slogan-images {
+    text-align: center;
+}
+
+#slogan-images img {
+    width: 160px;
+    height: 160px;
+    max-width: auto;
+    max-height: auto;
+    margin: 10px;
+}
+
+#slogan-button button {
+    width: 100%;
+    border: none;
+    background-color: #3a4750;
+    color: white;
+    padding-top: 5px;
+}
+
+#slogan-button button:hover {
+    background-color: #0c317a;
+}
+
+
+/* responsive */
+@media (max-width: 992px) {
+
+    /* nav bar */
+    .menu {
+        display: none;
+    }
+
+    .icon-menu {
+        background-image: url(../images/icon-menu.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-color: white;
+        width: 30px;
+        height: 30px;
+        text-indent: -9999px;
+        align-self: flex-end;
+        margin: 10px 10px 0 0;
+
+    }
+
+    /* slogan area */
+
+    .slogan {
+        height: 100vh;
+    }
+        
+    .slogan-area-div {
+        height: 100%;
+    }
+
+    #slogan-images {
+        height: 15vh;
+    }
+
+    #slogan-images img {
+        width: 70px;
+        height: 70px;
+    }
+
+    #slogan-images img {
+        width: 160px;
+        height: 160px;
+        max-width: auto;
+        max-height: auto;
+        margin: 10px;
+    }
+}
+
+@media (min-width: 993px) {
+    .icon-menu {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+
+    /* icon menu */
+    .icon-menu {
+        align-self: flex-end;
+        margin-right: 40px
+    }
+
+    /* slogan section */
+    #slogan-images img {
+        width: 130px;
+        height: 130px;
+    }
+}
+
+@media (max-width: 485px) {
+
+    /* menu icon */
+    .icon-menu {
+        align-self: flex-end;
+        margin-right: 25px;
+    }
+
+    /* slogan section */
+    .slogan-area-div {
+        height: 50vh;
+    }
+
+    #slogan-images img {
+        width: 85px;
+        height: 85px;
+        margin: 10px;
+        align-self: center;
+    }
+
+    #slogan-button {
+        width: 30%;
+        height: 15%;
+    }
+
+}
+
+@media (max-width: 429px) {
+
+    /* slogan section */
+
+    #slogan-images {
+        height: 15vh;
+    }
+
+    #slogan-images img {
+        width: 70px;
+        height: 70px;
+    }
+}
